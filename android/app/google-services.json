@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "613520007878",
+    "project_id": "fluttuber-codex",
+    "storage_bucket": "fluttuber-codex.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613520007878:android:c7b4973032ef221610edc7",
+        "android_client_info": {
+          "package_name": "net.codexdev.fluttuber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613520007878-2spaju468da3unrashumesfiocqgjv56.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.codexdev.fluttuber",
+            "certificate_hash": "bc5aa5e1647f149f168503937d9c273363703048"
+          }
+        },
+        {
+          "client_id": "613520007878-058kbs2m84dvbc9ehbgamvibb87ge5f1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs-1yhsR515DTBi51CQLqDkBGTtEWw8b8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613520007878-058kbs2m84dvbc9ehbgamvibb87ge5f1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "613520007878-8mofqvli0tvm3t041gf2obvt4u6kpmru.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "net.codexdev.fluttuber"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
