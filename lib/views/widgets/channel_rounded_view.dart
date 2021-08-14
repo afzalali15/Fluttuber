@@ -59,11 +59,13 @@ class ChannelRoundedView extends StatelessWidget {
           child: Row(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Text(
-                '${flutterChannel.snippet?.title}',
-                overflow: TextOverflow.ellipsis,
-                style: Get.textTheme.bodyText1?.copyWith(
-                    color: Colors.white, fontWeight: FontWeight.bold),
+              Expanded(
+                child: Text(
+                  '${flutterChannel.snippet?.title}',
+                  overflow: TextOverflow.ellipsis,
+                  style: Get.textTheme.bodyText1?.copyWith(
+                      color: Colors.white, fontWeight: FontWeight.bold),
+                ),
               ),
               SizedBox(width: 4),
               Icon(
